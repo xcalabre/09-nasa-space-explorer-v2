@@ -197,12 +197,12 @@ h1{ font-size: clamp(28px, 3.2vw, 44px); font-weight:700; letter-spacing:.02em; 
 /* ====== Fact banner - Ticker Style ====== */
 .fact{
   margin: 8px auto 18px;
-  background: linear-gradient(180deg, rgba(11,61,145,.6), rgba(11,61,145,.25));
-  border:1px solid var(--ring);
+  background: transparent;
+  border: none;
   padding:14px 16px; 
   border-radius:14px; 
   max-width: 760px; /* Reduced by 20% from 950px */
-  box-shadow: 0 8px 30px rgba(2,4,15,.3) inset, 0 8px 28px rgba(0,10,40,.25);
+  box-shadow: none;
   font-size: clamp(15px, 1.7vw, 18px);
   overflow: hidden; /* Hide overflowing ticker content */
   position: relative;
